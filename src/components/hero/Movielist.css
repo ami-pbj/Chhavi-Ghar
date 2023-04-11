@@ -1,0 +1,58 @@
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: transparent;
+  z-index: 1;
+  margin-top: 100px;
+}
+
+.movie__rating {
+  display: flex;
+}
+
+.movie > img {
+  max-height: 300px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+  width: fit-content;
+  border: 1px solid gold;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.movie > button {
+  background: gold;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.movie__price {
+  margin-top: 5px;
+}
+
+.movie__info {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.movie__stock {
+  border: 1px solid rgb(115, 0, 255);
+  border-radius: 15px;
+  overflow: hidden;
+  object-fit: contain;
+  width: fit-content;
+  margin-left: 30px;
+  font-size: 13px;
+}

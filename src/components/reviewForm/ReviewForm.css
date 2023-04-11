@@ -1,0 +1,10 @@
+.review_submit_button > button{
+    border-color: #01FF74;
+    color: #01FF74;
+}
+
+.review_submit_button > button:hover{
+    border-color: #01FF74;
+    background-color: #01FF74;
+    color: #000000;
+}

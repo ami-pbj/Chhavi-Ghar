@@ -1,0 +1,50 @@
+.bookingProduct {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.bookingProduct__info {
+    padding-left: 20px;
+}
+
+.bookingProduct__info > button {
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+
+.bookingProduct__image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.bookingProduct__rating {
+    display: flex;
+}
+
+.bookingProduct__title {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.bookingProduct__price {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  
+  .bookingProduct__stock {
+    border: 1px solid rgb(115, 0, 255);
+    border-radius: 15px;
+    overflow: hidden;
+    object-fit: contain;
+    width: fit-content;
+    margin-left: 30px;
+    font-size: 13px;
+  }
