@@ -24,10 +24,10 @@
 <img width="1440" alt="Screenshot 2023-04-12 at 16 41 48" src="https://user-images.githubusercontent.com/95628601/231440607-0ce41cf2-dab4-4909-bd6c-8f5702981f47.png">
 
 
-### Booking Page :
+### Booking Details :
 After successful payment on stripe, the payment page will replace by booking page
 
-<img width="1440" alt="Screenshot 2023-04-12 at 16 44 26" src="https://user-images.githubusercontent.com/95628601/231441081-5fe24927-be6b-47fc-b4be-5ee3b21f17f1.png">
+<img width="1440" alt="Screenshot 2023-04-12 at 16 48 37" src="https://user-images.githubusercontent.com/95628601/231441993-986c9aad-c53f-4eae-9f21-c1f1f62979aa.png">
 
 
 
