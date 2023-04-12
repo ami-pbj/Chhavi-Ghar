@@ -1,4 +1,5 @@
-# Chhavi Ghar - ## A MERN application with Java Spring Boot and Firebase
+# Chhavi Ghar
+## A Full Stack Web Application built on Java Spring Boot and Firebase with MERN.
 
 ### Home : 
 
