@@ -10,7 +10,7 @@
   min-width: 100px;
   background-color: transparent;
   z-index: 1;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .movie__rating {
@@ -56,3 +56,4 @@
   margin-left: 30px;
   font-size: 13px;
 }
+

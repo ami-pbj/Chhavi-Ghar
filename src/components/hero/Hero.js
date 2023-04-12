@@ -63,16 +63,17 @@ const Hero = ({movies}) => {
       </Carousel>
 
 
-
         {/* Movie Details with Watchlist and Booking Button */}
-        <div className=''>
+        <div className='home'>
+        <h3>Latest Movies</h3>
+
             <div className="home__row">
                 
                 <Movielist
                     id="4903850"
                     title="The Mandalorian (2019)"
                     info="U/A 13+ | Sci-Fi & Fantasy, Action & Adventure, Drama"
-                    price={199.99}
+                    price={999.99}
                     stock="In Stock"
                     nostock=""
                     rating={4}
@@ -83,7 +84,7 @@ const Hero = ({movies}) => {
                     id="23445930"
                     title="RRR (2022)"
                     info="UA | Action, Drama"
-                    price={98.99}
+                    price={1199.99}
                     nostock="Out of Stock"
                     stock=""
                     rating={5}
@@ -93,7 +94,7 @@ const Hero = ({movies}) => {
                     id="49538094"
                     title="John Wick: Chapter 4 (2023)"
                     info="R | Action, Thriller, Crime"
-                    price={239.0}
+                    price={1999.99}
                     stock="In Stock"
                     nostock=""
                     rating={4}
@@ -108,7 +109,7 @@ const Hero = ({movies}) => {
                     id="4903850"
                     title="Breaking Bad (2008)"
                     info="A | Drama, Crime"
-                    price={199.99}
+                    price={699.99}
                     stock="In Stock"
                     nostock=""
                     rating={4}
@@ -118,7 +119,7 @@ const Hero = ({movies}) => {
                     id="12321341"
                     title="Lucifer (2016)"
                     info="U/A 16+ | Crime, Sci-Fi & Fantasy"
-                    price={11.96}
+                    price={999.99}
                     nostock="Out of Stock"
                     stock=""
                     rating={4}
@@ -129,7 +130,7 @@ const Hero = ({movies}) => {
                     id="4903850"
                     title="65 (2023)"
                     info="PG-13 | Science Fiction, Adventure, Thriller, Action"
-                    price={199.99}
+                    price={599.99}
                     nostock="Out of Stock"
                     stock=""
                     rating={3}
@@ -140,7 +141,7 @@ const Hero = ({movies}) => {
                     id="3254354345"
                     title="Shazam! Fury of the Gods (2023)"
                     info="PG-13 | Action, Comedy, Fantasy"
-                    price={598.99}
+                    price={499.99}
                     stock="In Stock"
                     nostock=""
                     rating={3}
@@ -153,7 +154,7 @@ const Hero = ({movies}) => {
                     id="90829332"
                     title="Encanto at the Hollywood Bowl (2022)"
                     info="PG | Music"
-                    price={1094.98}
+                    price={899.99}
                     stock="In Stock"
                     nostock=""
                     rating={4}
