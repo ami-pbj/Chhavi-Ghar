@@ -84,7 +84,7 @@ return (
             </Link>
 
             {/* Booked Tickets => Orders */}
-            <Link to='./order' style={{ textDecoration: 'none' }}>
+            <Link to='./orders' style={{ textDecoration: 'none' }}>
                 <div className='header__option'>
                     <span className='header__optionLineTwo'>
                         Tickets

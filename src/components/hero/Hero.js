@@ -74,6 +74,7 @@ const Hero = ({movies}) => {
                     info="U/A 13+ | Sci-Fi & Fantasy, Action & Adventure, Drama"
                     price={199.99}
                     stock="In Stock"
+                    nostock=""
                     rating={4}
                     image="https://www.themoviedb.org/t/p/original/wXDXW4wJnvs5qHEXEZSLtUEzRjX.jpg"
                 />
@@ -84,6 +85,7 @@ const Hero = ({movies}) => {
                     info="UA | Action, Drama"
                     price={98.99}
                     nostock="Out of Stock"
+                    stock=""
                     rating={5}
                     image="https://www.themoviedb.org/t/p/original/d3l7kgFJyLTTQSrR4ysCk5yeVyW.jpg"
                 />
@@ -93,6 +95,7 @@ const Hero = ({movies}) => {
                     info="R | Action, Thriller, Crime"
                     price={239.0}
                     stock="In Stock"
+                    nostock=""
                     rating={4}
                     image="https://www.themoviedb.org/t/p/original/tnKVQVVZ9BfcJ4JimdqUF3bLr80.jpg"
                 />
@@ -107,6 +110,7 @@ const Hero = ({movies}) => {
                     info="A | Drama, Crime"
                     price={199.99}
                     stock="In Stock"
+                    nostock=""
                     rating={4}
                     image="https://www.themoviedb.org/t/p/original/ggFHVNu6YYI5L9pCfOacjizRGt.jpg"
                 />
@@ -116,6 +120,7 @@ const Hero = ({movies}) => {
                     info="U/A 16+ | Crime, Sci-Fi & Fantasy"
                     price={11.96}
                     nostock="Out of Stock"
+                    stock=""
                     rating={4}
                     image="https://www.themoviedb.org/t/p/original/4EYPN5mVIhKLfxGruy7Dy41dTVn.jpg"
                 />
@@ -126,6 +131,7 @@ const Hero = ({movies}) => {
                     info="PG-13 | Science Fiction, Adventure, Thriller, Action"
                     price={199.99}
                     nostock="Out of Stock"
+                    stock=""
                     rating={3}
                     image="https://www.themoviedb.org/t/p/original/sJtSmrH9soTPw7LU5t2iTcOMCrw.jpg"
                 />
@@ -136,6 +142,7 @@ const Hero = ({movies}) => {
                     info="PG-13 | Action, Comedy, Fantasy"
                     price={598.99}
                     stock="In Stock"
+                    nostock=""
                     rating={3}
                     image="https://www.themoviedb.org/t/p/original/A3ZbZsmsvNGdprRi2lKgGEeVLEH.jpg"
                 />
@@ -148,6 +155,7 @@ const Hero = ({movies}) => {
                     info="PG | Music"
                     price={1094.98}
                     stock="In Stock"
+                    nostock=""
                     rating={4}
                     image="https://www.themoviedb.org/t/p/original/iR16XoukM0bCF2B4KP83a2xghYP.jpg"
                 />

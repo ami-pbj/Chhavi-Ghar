@@ -29,11 +29,11 @@ const Booking = () => {
                     <BookingProduct
                         id={item.id}
                         title={item.title}
+                        image={item.image}
                         info={item.info}
+                        price={item.price}
                         stock={item.stock}
                         nostock={item.nostock}
-                        image={item.image}
-                        price={item.price}
                         rating={item.rating}
                     />
                 ))}

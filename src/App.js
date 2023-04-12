@@ -12,12 +12,12 @@ import Booking from './components/booking/Booking';
 import Login from './components/login/Login';
 import Payment from './components/payment/Payment';
 import Footer from './components/footer/Footer';
-import Order from './components/order/Order';
 
 import { useStateValue } from './StateProvider';
 import { auth } from './firebase';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
+import Orders from './components/orders/Orders';
 
 
 
@@ -129,7 +129,7 @@ function App() {
             }/>
 
             {/* Orders Page */}
-            <Route path='/order' element={<Order/>}/>
+            <Route path='/orders' element={<Orders/>}/>
 
 
 

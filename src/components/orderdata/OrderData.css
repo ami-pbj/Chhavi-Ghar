@@ -1,8 +1,8 @@
 .order {
     padding: 40px;
-    margin: 0px 0px 0px 0px;
-    border: 1px solid lightgray;
-    background-color: white;
+    margin: 20px 0;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: linen;
     position: relative;
     color: #111;
 }
@@ -16,4 +16,11 @@
 .order__total {
     font-weight: 500;
     text-align: right;
+}
+
+
+.booking__address {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
 }

@@ -1,15 +1,17 @@
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
-// import * as firebase from "firebase";
+// v9 compat packages are API compatible with v8 code
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
+import "firebase/compat/database";
+import "firebase/compat/storage";
 
 
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  // config file
+  // config file 
 };
 
 

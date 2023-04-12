@@ -55,6 +55,7 @@ const Payment = () => {
             }
         }).then(({ paymentIntent }) => {
             // paymentIntent = payment confirmation
+            console.log({ user, basket, paymentIntent })
 
             // adding orders on order page with user details
             db
@@ -62,11 +63,12 @@ const Payment = () => {
                 .doc(user?.uid)
                 .collection('orders')
                 .doc(paymentIntent.id)
-                .set(Object.assign({
+                .set({
                     basket: basket,
                     amount: paymentIntent.amount,
                     created: paymentIntent.created
-                },user))
+                })
+                
 
             setSucceeded(true);
             setError(null);
@@ -77,7 +79,7 @@ const Payment = () => {
             })
 
             // redirect the page and never back to payment page again since the payment is done 
-            navigate('/order', { replace: true })
+            navigate('/orders', { replace: true })
         })
     }
 
@@ -96,7 +98,7 @@ const Payment = () => {
             {/* Number of items in cart / basket */}
             <h1>
                 Box Office Booking  (
-                    <Link to='/bookings' style={{fontSize: 25, verticalAlign: 'middle'}}>
+                    <Link to='/booking' style={{fontSize: 25, verticalAlign: 'middle'}}>
                         {basket?.length} tickets
                     </Link>
                 )
@@ -137,8 +139,8 @@ const Payment = () => {
                         id={item.id}
                         title={item.title}
                         image={item.image}
-                        price={item.price}
                         info={item.info}
+                        price={item.price}
                         stock={item.stock}
                         nostock={item.nostock}
                         rating={item.rating}
