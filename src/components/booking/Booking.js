@@ -19,10 +19,10 @@ const Booking = () => {
             />
 
             <div>
-                <h3>Hello, {user?.email}</h3>
-                <h2 className='booking__title'>
+                <h4 style={{marginTop: 5, padding: 10}}>{!user ? 'Hello,' : 'Hello,'} {!user ? "You've not Signed In yet !" : user?.email}</h4>
+                <h3 className='booking__title'>
                     Your Shopping Basket
-                </h2>
+                </h3>
 
                 {/* To show selected products on Booking page   */}
                 {basket.map(item => (

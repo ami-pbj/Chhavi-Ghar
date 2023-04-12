@@ -34,12 +34,12 @@
     max-width: 400px;
 }
 
-.payment__details > h3 {
+.payment__details > h4 {
     padding-bottom: 20px;
 }
 
-/* .payment__details > form > div > button {
-    background: #f0c14b;
+.payment__details > form > div > button {
+    /* background: #f0c14b; */
     border-radius: 2px;
     width: 100%;
     height: 30px;
@@ -47,12 +47,19 @@
     font-weight: bolder;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
-    color: #111;
+    /* color: #111; */
     cursor: pointer;
 }
 
-.payment__priceContainer > h3 {
+.payment__card {
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.payment__priceContainer > h4 {
     margin-top: 30px;
     font-size: 20px;
     font-weight: 600;
-} */
+}

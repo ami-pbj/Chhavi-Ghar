@@ -106,10 +106,10 @@ const Payment = () => {
 
             <div className="payment__section">
                 <div className="payment__title">
-                    <h3>User</h3>
+                    <h4>User</h4>
                 </div>
                 <div className="payment__address">
-                    <p>{user?.email}</p>
+                    <p>{!user ? "Please Sign In before making a booking !" : user?.email}</p>
                     
                     <p></p>
                 </div>
@@ -118,7 +118,7 @@ const Payment = () => {
             {/* Payment Section => Delivery Address */}
             <div className="payment__section">
                 <div className="payment__title">
-                    <h3>Nearest Theatre</h3>
+                    <h4>Nearest Theatre</h4>
                 </div>
                 <div className="payment__address">
                     <p>2023 JavaScript Road</p>
@@ -130,7 +130,7 @@ const Payment = () => {
             {/* Payment Section => Review Items */}
             <div className="payment__section">
                 <div className="payment__title">
-                    <h3>Review Tickets</h3>
+                    <h4>Review Tickets</h4>
                 </div>
                 <div className="payment__items">
                     {/* all the selected products */}
@@ -152,19 +152,21 @@ const Payment = () => {
             {/* Payment Section => Payment Method */}
             <div className="payment__section">
                 <div className="payment__title">
-                    <h3>Payment Method</h3>
+                    <h4>Payment Method</h4>
                 </div>
                 <div className="payment__details">
+                    <p className='payment__card'>Card Details</p>
                     {/* Stripe Work for Payment */}
+                    
                     <form onSubmit={handleSubmit}>
                         <CardElement onChange={handleChange}/>
 
                         <div className="payment__priceContainer">
                             <CurrencyFormat
                                 renderText={(value) => (
-                                    <h3>
+                                    <h4>
                                         Booking Total: {value}
-                                    </h3>
+                                    </h4>
                                 )}
                                 decimalScale={2}
                                 value={getBasketTotal(basket)}
