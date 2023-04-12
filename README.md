@@ -1,6 +1,34 @@
-# Getting Started with Create React App
+# Chhavi Ghar - A MERN application with Java Spring Boot and Firebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Home : 
+
+<img width="1440" alt="Screenshot 2023-04-12 at 16 36 37" src="https://user-images.githubusercontent.com/95628601/231439727-d3a08a1d-6053-4ea4-ad02-fa08b833721b.png">
+
+
+<img width="1440" alt="Screenshot 2023-04-12 at 16 36 45" src="https://user-images.githubusercontent.com/95628601/231439762-40e49dd0-b367-4de7-b7f6-b6c99d81cdf7.png">
+
+
+### Reviews : 
+
+<img width="1440" alt="Screenshot 2023-04-12 at 16 39 27" src="https://user-images.githubusercontent.com/95628601/231440169-9753fedd-24e1-41c6-810c-c1147ebe40a7.png">
+
+
+### Booking Box Office :
+
+<img width="1440" alt="Screenshot 2023-04-12 at 16 40 52" src="https://user-images.githubusercontent.com/95628601/231440346-44457c01-e85a-4f38-a199-3bd6160f5b1a.png">
+
+
+### Payment Page : 
+
+<img width="1440" alt="Screenshot 2023-04-12 at 16 41 48" src="https://user-images.githubusercontent.com/95628601/231440607-0ce41cf2-dab4-4909-bd6c-8f5702981f47.png">
+
+
+### Booking Page :
+After successful payment on stripe, the payment page will replace by booking page
+
+<img width="1440" alt="Screenshot 2023-04-12 at 16 44 26" src="https://user-images.githubusercontent.com/95628601/231441081-5fe24927-be6b-47fc-b4be-5ee3b21f17f1.png">
+
+
 
 ## Available Scripts
 
