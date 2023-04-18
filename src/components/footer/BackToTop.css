@@ -1,0 +1,15 @@
+.backToTop {
+    display: flex;
+    flex-direction: row;
+    background-color: #394758;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+
+.backToTop:hover {
+    cursor: pointer;
+    background-color: #495565;
+}

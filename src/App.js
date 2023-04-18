@@ -18,6 +18,8 @@ import { auth } from './firebase';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
 import Orders from './components/orders/Orders';
+import Footbar from './components/footer/Footbar';
+import BackToTop from './components/footer/BackToTop';
 
 
 
@@ -135,7 +137,9 @@ function App() {
 
           </Route>
       </Routes>
+      <BackToTop/>
       <Footer/>
+      <Footbar/>
 
     </div>
   );

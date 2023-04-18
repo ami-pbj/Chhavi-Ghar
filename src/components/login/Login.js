@@ -46,13 +46,6 @@ const Login = () => {
 
   return (
     <div className='login'>
-        <Link to='/'>
-            <img
-                className='login__logo'
-                src={logo2}
-                alt=""
-            />
-        </Link>
 
         <div className="login__container">
             <h1>Sign in</h1>
@@ -75,8 +68,6 @@ const Login = () => {
             <button onClick={register} className='login__registerButton'>
                 Create your Chhavi Ghar account
             </button>
-
-
 
         </div>
 

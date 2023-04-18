@@ -16,7 +16,20 @@
 }
 
 .booking__title {
-    margin-right: 10px;
-    padding: 10px;
-    border-bottom: 1px solid lightgrey;
+    padding-right: 9px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.booking__left {
+    margin-right: 20px;
+}
+
+.booking__left > img {
+    max-height: fit-content;
+}
+
+.booking__right {
+    height: fit-content;
+    min-width: 400px;
 }

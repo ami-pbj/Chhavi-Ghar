@@ -52,7 +52,7 @@ const BookingProduct = ({ id, image, title, price, rating, hideButton, info, sto
 
             {!hideButton && (
                 <button onClick={removeFromBasket}>
-                    Remove from Box Office
+                    Remove
                 </button>
             )}
             

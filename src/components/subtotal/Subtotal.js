@@ -4,6 +4,7 @@ import CurrencyFormat from 'react-currency-format';
 import { useStateValue } from '../../StateProvider';
 import { getBasketTotal } from '../../reducer';
 import { useNavigate } from 'react-router-dom';
+import Checkbox from './Checkbox';
 
 
 const Subtotal = () => {
@@ -19,12 +20,15 @@ const Subtotal = () => {
         <CurrencyFormat
             renderText={(value) => (
                 <>
-                    <p>
+                    <h5>
                         Subtotal ({ basket?.length } items): <strong>{value}</strong>
-                    </p>
+                    </h5>
+
+                    {/* Checkbox => Food and Beverage Order */}
                     <small className='subtotal__gift'>
-                        <input type="checkbox"/>
-                        Add Food and Beverage
+                        <Checkbox />
+                        {/* <Checkbox label1="I agree to terms & conditions" checked={true} disabled /> */}
+
                     </small>
                     <p className='subtotal__food'>
                         ▶︎ Order for Food and Beverage will be deliver on same booked theatre.

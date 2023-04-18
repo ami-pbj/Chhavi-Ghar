@@ -1,0 +1,81 @@
+
+.checkbox__wrapper{
+    align-items: first baseline;
+}
+
+.checkbox__layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.checkbox__lable {
+    padding: 3px;
+    margin-left: 3px;
+}
+
+.checkbox__unchecked {
+    color: gray;
+    margin-left: 19px;
+}
+
+
+.result {
+    margin-top: 1rem;
+}
+
+.foods__list, .total {
+    width: auto;
+    margin: 0 auto;
+}
+
+.foods__list {
+    list-style: none;
+    padding: 0;
+    margin-left: 19px;
+    /* border-top: 1px solid lightgray; */
+    margin-top: 10px;
+}
+
+.foods__list li {
+    margin-bottom: 0.5rem;
+}
+
+.foods__list__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foods__list li:last-child {
+    border-top: 1px solid #ccc;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.foods__list__item label {
+    vertical-align: text-bottom;
+    margin-left: 0.2rem;
+}
+
+.total {
+    margin-top: 1rem;
+}
+
+.middle__section {
+    width: fit-content;
+    height: fit-content;
+}
+
+.right__section {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+.foods__list,
+.total {
+    width: 90%;
+}
+}
+    

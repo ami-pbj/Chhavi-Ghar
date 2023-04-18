@@ -1,0 +1,49 @@
+.food {
+  display: grid; 
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1rem;
+  background-color: lightgrey;
+  margin: 5px;
+  border: 1px solid rgb(139, 139, 139);
+  border-radius: 10px;
+  color:#111;
+}
+
+.food > img {
+  max-height: 100%;
+  width: 120px;
+  object-fit: cover;
+  border: 1px solid gold;
+  border-radius: 10px;
+}
+
+.food .food__title {
+  margin-top: 0;
+}
+
+.food__button {
+  background: gold;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.food__rating {
+  display: flex;
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+
+.food__stock {
+  border: 1px solid rgb(115, 0, 255);
+  border-radius: 15px;
+  overflow: hidden;
+  object-fit: contain;
+  width: fit-content;
+  margin-top: -10px;
+  font-size: 13px;
+}

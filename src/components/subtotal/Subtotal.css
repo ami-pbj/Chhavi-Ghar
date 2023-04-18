@@ -18,7 +18,9 @@
 
 .subtotal__gift {
     display: flex;
-    align-items: center;
+    align-items: first baseline;
+    display: flex;
+    flex-direction: column;
 }
 
 .subtotal__gift > input {
@@ -29,6 +31,7 @@
     margin-top: 20px;
     font-size: 12px;
     margin-bottom: 5px;
+    width: fit-content;
 }
 
 .subtotal__title > button {

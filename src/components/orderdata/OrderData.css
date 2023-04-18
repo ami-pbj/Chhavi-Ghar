@@ -10,7 +10,8 @@
 .order__id {
     position: absolute;
     top: 40px;
-    right: 20px;
+    right: 40px;
+    text-align: right;
 }
 
 .order__total {

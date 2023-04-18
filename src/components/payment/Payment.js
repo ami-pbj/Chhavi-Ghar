@@ -109,7 +109,7 @@ const Payment = () => {
                     <h4>User</h4>
                 </div>
                 <div className="payment__address">
-                    <p>{!user ? "Please Sign In before making a booking !" : user?.email}</p>
+                    <p>{!user ? <span style={{color: 'red'}}>Please Sign In before making a booking !</span>  : <span style={{color: 'green'}}> {user?.email}</span>}</p>
                     
                     <p></p>
                 </div>
@@ -177,7 +177,7 @@ const Payment = () => {
 
                             <button disabled={processing || disabled || succeeded}>
                                 <span>
-                                    {processing ? <p>Processing</p> : "Book Now"}
+                                    {processing ? <p style={{color: 'green'}}>Processing</p> : <span style={{color: ''}}>Book Now</span>}
                                 </span>
                             </button>
                         </div>
