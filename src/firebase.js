@@ -11,7 +11,13 @@ import "firebase/compat/storage";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  // config file 
+  apiKey: "AIzaSyB_Fnyo-hmJZ7LHdaxrRpRVLHMbGehzmP4",
+  authDomain: "chhavi-ghar.firebaseapp.com",
+  projectId: "chhavi-ghar",
+  storageBucket: "chhavi-ghar.appspot.com",
+  messagingSenderId: "705458966279",
+  appId: "1:705458966279:web:3106c7f519607bf2feffa2",
+  measurementId: "G-8MEJ9CWL7B"
 };
 
 

@@ -79,7 +79,7 @@ function Foodlist({ id, title, rating, image, price, stock, nostock  }) {
       </div>
 
       <button onClick={addToBasket} class="food__button">
-        <strong>+ </strong>
+        <strong style={{fontWeight: "bolder"}}>+ </strong>
         Add
       </button>
     </div>

@@ -1,19 +1,20 @@
-.subtotal__title > h1 {
-    text-align: center;
-    flex-direction: row;
-    flex: 1;
-}
-
 .subtotal {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: fit-content;
+    flex: 1;
+    justify-content: center;
+    width: 400px;
     height: fit-content;
     padding: 20px;
     background-color: #f3f3f3;
     border: 1px solid #dddddd;
     border-radius: 3px;
+}
+
+.subtotal__title > h1 {
+    text-align: center;
+    flex-direction: row;
+    flex: 1;
 }
 
 .subtotal__gift {

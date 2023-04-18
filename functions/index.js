@@ -7,7 +7,7 @@ const cors = require("cors");
 // Secret Key => Stripe.com > Developers > API Keys > Secret Key
 // INR
 // eslint-disable-next-line max-len
-const stripe = require("stripe")("secret key");
+const stripe = require("stripe")("sk_test_51MgN5uSB09l0DKpiEjaGA1cLANJkvxqWh8tvN1bfgtdtU0a5Oxd87I0dszz8WTxq2OiWMipS1madOoOVofThSyUB00oKVMZkP1");
 
 
 // USD
