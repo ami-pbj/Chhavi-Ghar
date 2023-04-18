@@ -22,7 +22,8 @@
 
 ### Payment Page : 
 
-<img width="1440" alt="Screenshot 2023-04-18 at 18 02 31" src="https://user-images.githubusercontent.com/95628601/232778416-f6d5bef7-40aa-47f3-8d34-77da4501fdc4.png">
+<img width="1440" alt="Screenshot 2023-04-18 at 18 13 50" src="https://user-images.githubusercontent.com/95628601/232781132-ae72fe47-ded2-4b57-9699-ed3382dc63ac.png">
+
 
 
 
