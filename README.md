@@ -16,7 +16,8 @@
 
 ### Booking Box Office :
 
-<img width="1440" alt="Screenshot 2023-04-12 at 16 40 52" src="https://user-images.githubusercontent.com/95628601/231440346-44457c01-e85a-4f38-a199-3bd6160f5b1a.png">
+<img width="1440" alt="Screenshot 2023-04-18 at 18 00 32" src="https://user-images.githubusercontent.com/95628601/232777832-5e050204-3bb2-4e53-95fb-d2c6cd3ddcb3.png">
+
 
 
 ### Payment Page : 
