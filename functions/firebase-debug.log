@@ -22118,3 +22118,91 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] i  functions: Finished "us-central1-api" in 1630.699875ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1630.699875ms"}}
 [debug] [2023-04-18T11:28:23.196Z] [worker-us-central1-api-3d17f13d-362d-48e1-a63a-b21680570d69]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-3d17f13d-362d-48e1-a63a-b21680570d69]: IDLE"}}
 [debug] [2023-04-18T11:28:23.196Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-04-18T12:16:47.205Z] File /Users/purnendubikashjana/Visual_Studio/CHHAVI-GHAR-REACT/movie-client/chhavi-ghar/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/purnendubikashjana/Visual_Studio/CHHAVI-GHAR-REACT/movie-client/chhavi-ghar/functions/index.js changed, reloading triggers"}}
+[debug] [2023-04-18T12:16:48.228Z] Validating nodejs source
+[debug] [2023-04-18T12:16:49.160Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.3.0",
+    "stripe": "^12.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-04-18T12:16:49.162Z] Building nodejs source
+[debug] [2023-04-18T12:16:49.163Z] Failed to find version of module node: reached end of search path /Users/purnendubikashjana/Visual_Studio/CHHAVI-GHAR-REACT/movie-client/chhavi-ghar/functions/node_modules
+[info] ✔  functions: Using node@16 from host. 
+[debug] [2023-04-18T12:16:49.175Z] File /Users/purnendubikashjana/Visual_Studio/CHHAVI-GHAR-REACT/movie-client/chhavi-ghar/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/purnendubikashjana/Visual_Studio/CHHAVI-GHAR-REACT/movie-client/chhavi-ghar/functions/index.js changed, reloading triggers"}}
+[debug] [2023-04-18T12:16:49.175Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-04-18T12:16:49.181Z] Found firebase-functions binary at '/Users/purnendubikashjana/Visual_Studio/CHHAVI-GHAR-REACT/movie-client/chhavi-ghar/functions/node_modules/.bin/firebase-functions'
+[debug] [2023-04-18T12:16:49.346Z] Serving at port 8650
+
+[debug] [2023-04-18T12:16:49.571Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-04-18T12:16:49.581Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[debug] [2023-04-18T12:16:49.596Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2023-04-18T12:16:49.596Z] [worker-us-central1-api-7523d175-7ecc-46ca-a62c-2089ba86c292]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-7523d175-7ecc-46ca-a62c-2089ba86c292]: FINISHING"}}
+[debug] [2023-04-18T12:16:49.596Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2023-04-18T12:16:49.596Z] [worker-us-central1-api-3d17f13d-362d-48e1-a63a-b21680570d69]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-3d17f13d-362d-48e1-a63a-b21680570d69]: FINISHING"}}
+[debug] [2023-04-18T12:16:49.601Z] [worker-us-central1-api-3d17f13d-362d-48e1-a63a-b21680570d69]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-3d17f13d-362d-48e1-a63a-b21680570d69]: exited"}}
+[debug] [2023-04-18T12:16:49.601Z] [worker-us-central1-api-3d17f13d-362d-48e1-a63a-b21680570d69]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-3d17f13d-362d-48e1-a63a-b21680570d69]: FINISHED"}}
+[debug] [2023-04-18T12:16:49.601Z] [worker-us-central1-api-7523d175-7ecc-46ca-a62c-2089ba86c292]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-7523d175-7ecc-46ca-a62c-2089ba86c292]: exited"}}
+[debug] [2023-04-18T12:16:49.601Z] [worker-us-central1-api-7523d175-7ecc-46ca-a62c-2089ba86c292]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-7523d175-7ecc-46ca-a62c-2089ba86c292]: FINISHED"}}
+[debug] [2023-04-18T12:16:50.175Z] Validating nodejs source
+[debug] [2023-04-18T12:16:50.774Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.3.0",
+    "stripe": "^12.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-04-18T12:16:50.774Z] Building nodejs source
+[debug] [2023-04-18T12:16:50.774Z] Failed to find version of module node: reached end of search path /Users/purnendubikashjana/Visual_Studio/CHHAVI-GHAR-REACT/movie-client/chhavi-ghar/functions/node_modules
+[info] ✔  functions: Using node@16 from host. 
+[debug] [2023-04-18T12:16:50.775Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-04-18T12:16:50.776Z] Found firebase-functions binary at '/Users/purnendubikashjana/Visual_Studio/CHHAVI-GHAR-REACT/movie-client/chhavi-ghar/functions/node_modules/.bin/firebase-functions'
+[debug] [2023-04-18T12:16:50.878Z] Serving at port 8897
+
+[debug] [2023-04-18T12:16:50.991Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-04-18T12:16:50.994Z] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}

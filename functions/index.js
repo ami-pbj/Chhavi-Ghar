@@ -10,6 +10,11 @@ const cors = require("cors");
 const stripe = require("stripe")("secret key");
 
 
+// USD
+// eslint-disable-next-line max-len
+// const stripe = require("stripe")("sk_test_51MgZzRLdUHnfIWNZnLd8dbZg4QITukzXqubPh5TpcRU7SQNxW4StlUNVjtFgM4gLA2qV8uRoNAZOyDXoa5VIyx0P0068yXMR3m");
+
+
 // API
 
 // - App Config
@@ -41,3 +46,13 @@ app.post("/payments/create", async (request, response) => {
 // - Listen Commands
 exports.api = functions.https.onRequest(app);
 
+// Example End Point
+// http://127.0.0.1:5001/chhavi-ghar/us-central1/api
+
+// // Create and deploy your first functions
+// // https://firebase.google.com/docs/functions/get-started
+//
+// exports.helloWorld = functions.https.onRequest((request, response) => {
+//   functions.logger.info("Hello logs!", {structuredData: true});
+//   response.send("Hello from Firebase!");
+// });
