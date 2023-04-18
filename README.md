@@ -1,6 +1,7 @@
 # Chhavi Ghar
 ## A Full Stack Web Application built on Java Spring Boot and Firebase with MERN.
 
+
 ### Home : 
 
 <img width="1440" alt="Screenshot 2023-04-12 at 16 36 37" src="https://user-images.githubusercontent.com/95628601/231439727-d3a08a1d-6053-4ea4-ad02-fa08b833721b.png">
@@ -9,14 +10,21 @@
 <img width="1440" alt="Screenshot 2023-04-12 at 16 36 45" src="https://user-images.githubusercontent.com/95628601/231439762-40e49dd0-b367-4de7-b7f6-b6c99d81cdf7.png">
 
 
+
+
+
 ### Reviews : 
 
 <img width="1440" alt="Screenshot 2023-04-12 at 16 39 27" src="https://user-images.githubusercontent.com/95628601/231440169-9753fedd-24e1-41c6-810c-c1147ebe40a7.png">
 
 
+
+
 ### Booking Box Office :
 
 <img width="1440" alt="Screenshot 2023-04-18 at 18 00 32" src="https://user-images.githubusercontent.com/95628601/232777832-5e050204-3bb2-4e53-95fb-d2c6cd3ddcb3.png">
+
+
 
 
 
@@ -27,8 +35,9 @@
 
 
 
+
 ### Booking Details :
-After successful payment on stripe, the payment page will replace by booking page
+After successful payment on stripe, the payment page will replace by booking page.
 
 <img width="1440" alt="Screenshot 2023-04-18 at 18 03 12" src="https://user-images.githubusercontent.com/95628601/232778501-f7535793-7e62-4af7-9ee8-acb39f918aec.png">
 
