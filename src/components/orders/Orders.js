@@ -29,12 +29,33 @@ function Orders() {
 
     return (
         <div className='orders'>
-            <h2>Your Bookings</h2>
+            <div className="orders__header">
+                <h2>Your Bookings</h2>
+                <span className="order__count">
+                    {orders.length} {orders.length === 1 ? "Booking " : "Bookings "}
+                </span>
+            </div>
 
-            <div className='orders__order'>
-                {orders?.map(order => (
-                    <Order order={order} />
-                ))}
+            <div className='orders__auth'>
+                {!user ? <span style={{color: 'red', fontSize: 18}}> You've not Signed In yet !</span> 
+                
+                :
+                
+                <span>
+                    
+                    {orders.length > 0 ? (
+                        <>
+                            Bookings for <span style={{color: 'green', fontSize: 18}}>{user?.email}</span>
+                            
+                            {orders?.map(order => (
+                                <Order order={order} />
+                            ))}
+                        </>
+                    ) : (
+                        <h3 className="no__bookings">No bookings in your Chhavi Ghar Box Office !!<br />Book Now !!</h3>
+                    )}
+                </span>}
+
             </div>
         </div>
     )

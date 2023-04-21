@@ -27,38 +27,16 @@ function Foodlist({ id, title, rating, image, price, stock, nostock  }) {
 
 
   return (
-    // <div className="food">
-    //   <div className="food__details">
-    //     <img src={image} alt="" />
-    //   </div>
-
-    //   <div className="food__title">
-    //     <div className="food__info__layout">
-    //       <p style={{fontWeight: "bold"}}>{title}</p>
-    //       <p className="food__info">
-    //         <small>₹ </small>
-    //         <strong style={{fontSize: 14 ,fontWeight: 100}}>{price}</strong>
-    //       </p>
-    //     </div>
-
-    //     <button onClick={addToBasket} style={{fontWeight: "bold"}}>
-    //       <strong style={{fontSize: 20}}>+ </strong>
-    //       Add
-    //     </button>
-        
-    //   </div>
-    // </div>
-
-    <div class="food">
+    <div className="food">
       <img
-        class="food__image"
+        className="food__image"
         src={image}
         alt=""
       />
 
-      <div class="food__desc">
-        <h5 class="food__title">{title}</h5>
-        <p class="food__info">
+      <div className="food__desc">
+        <h5 className="food__title">{title}</h5>
+        <p className="food__info">
           <small style={{color: 'black', fontSize: 15}}>₹ </small>
           <strong >{price}</strong>
         </p>
@@ -78,7 +56,7 @@ function Foodlist({ id, title, rating, image, price, stock, nostock  }) {
         </small>
       </div>
 
-      <button onClick={addToBasket} class="food__button">
+      <button onClick={addToBasket} className="food__button">
         <strong style={{fontWeight: "bolder"}}>+ </strong>
         Add
       </button>

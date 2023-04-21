@@ -1,0 +1,91 @@
+.watchlist {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  color: darkblue;
+  height: max-content;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.watchlist__header {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.watchlist__header span {
+  height: max-content;
+  width: max-content;
+  padding: 5px 6px 5px 5px;
+  border: 1px solid darkblue;
+  border-radius: 20px;
+  background-color: darkblue;
+  color:blanchedalmond;
+  font-weight: 600;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.watchlist__movie__layout {
+  padding: 40px;
+  margin: 20px 0;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: linen;
+  position: relative;
+  color: #111;
+}
+
+.goback__watchedlist {
+  text-decoration: none;
+  height: max-content;
+  width: max-content;
+  padding: 4px 5px 4px 5px;
+  font-size: 15px;
+  font-weight: 900;
+  color: #111;
+  border: 2px solid darkblue;
+  border-radius: 20px;
+}
+
+.goback__watchedlist:hover {
+  background-color: darkblue;
+  color: antiquewhite;
+  transition: all 0.5s ease;
+}
+
+
+
+/* Common styles for all watchlist components */
+
+/* 
+@media (min-width: 768px) {
+  .watchlist {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .watchlist {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .watchlist {
+    width: 1170px;
+  }
+} */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}

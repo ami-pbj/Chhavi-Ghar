@@ -196,7 +196,7 @@ const FoodData = () => {
             />
             <Foodlist
                 id="49538245"
-                title="Spain: Red wine and Coca-Cola"
+                title="Spain: Red Wine and Coca-Cola"
                 price={250.00}
                 stock=""
                 nostock="Limited"

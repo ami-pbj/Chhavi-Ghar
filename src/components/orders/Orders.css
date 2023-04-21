@@ -12,6 +12,37 @@
     max-width: 1500px;
 }
 
-.orders > h2 {
+.orders__header {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 20px;
+}
+
+.orders__header span {
+    height: max-content;
+    width: max-content;
+    padding: 5px 6px 5px 5px;
+    border: 1px solid darkblue;
+    border-radius: 20px;
+    background-color: darkblue;
+    color:blanchedalmond;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.orders__auth {
+    padding: 40px;
+    margin: 20px 0;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: linen;
+    position: relative;
+    color: #111;
+}
+
+.no__bookings {
+    color: #c4c4c4;
+    text-align: center;
 }

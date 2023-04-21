@@ -44,7 +44,17 @@
 }
 
 
+.footer__right > a {
+    font-size: 12px;
+    color: #DDD;
+    line-height: 10px;
+}
 
+.footer__right > a:hover {
+    cursor: pointer;
+    text-decoration: underline !important;
+    color: #DDD;
+}
 
 .footer__left {
     display: flex;

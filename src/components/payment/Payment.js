@@ -41,8 +41,8 @@ const Payment = () => {
         getClientSecret();
     }, [basket])
 
-    console.log('THE SECRET IS >>>', clientSecret)
-    console.log('👱', user)
+    // console.log('THE SECRET IS >>>', clientSecret)
+    // console.log('👱', user)
 
     const handleSubmit = async (event) => {
         // Do all stripe stuff...
@@ -109,7 +109,7 @@ const Payment = () => {
                     <h4>User</h4>
                 </div>
                 <div className="payment__address">
-                    <p>{!user ? <span style={{color: 'red'}}>Please Sign In before making a booking !</span>  : <span style={{color: 'green'}}> {user?.email}</span>}</p>
+                    <p>{!user ? <span style={{color: 'red'}}>Please Sign In before making any booking !</span>  : <span style={{color: 'green'}}> {user?.email}</span>}</p>
                     
                     <p></p>
                 </div>
@@ -175,7 +175,7 @@ const Payment = () => {
                                 prefix={"₹ "}
                             />
 
-                            <button disabled={processing || disabled || succeeded}>
+                            <button disabled={processing || disabled || succeeded} className='payment__buy__button'>
                                 <span>
                                     {processing ? <p style={{color: 'green'}}>Processing</p> : <span style={{color: ''}}>Book Now</span>}
                                 </span>

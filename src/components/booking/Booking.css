@@ -1,5 +1,7 @@
 .booking {
     display: flex;
+    flex-direction: row;
+    flex: 1;
     padding: 20px;
     background-color: white;
     height: max-content;

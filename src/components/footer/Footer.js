@@ -4,7 +4,7 @@ import './Footer.css';
 import { Link } from 'react-router-dom';
 
 
-import { logo2, linkedin, github, twitter, facebook, instagram, discord } from "../../assets"
+import { logo2, linkedin, github, twitter, facebook, instagram, discord } from "../../assets";
 
 const Footer = () => {
   return (
@@ -40,16 +40,35 @@ const Footer = () => {
         {/* Right side of Footer  */}
         <div className="footer__right">
           <h6>Get to Know Me</h6>
-          <p>About Me</p>
-          <p>Connect Me</p>
+          <Link to='https://purnendu-pbj.in/' style={{textDecoration: 'none'}}>
+            <p>About Me</p>
+          </Link>
+
+          <Link to='https://purnendu-pbj.in/' style={{textDecoration: 'none'}}>
+            <p>Connect Me</p>
+          </Link>
+
+          
         </div>
 
         <div className="footer__right">
           <h6>Your Account</h6>
           <p>Your Chhavi Ghar Profile</p>
-          <p>Your Food</p>
-          <p>Your Wishlist</p>
-          <p>Your Bookings</p>
+
+          <Link to='./booking' style={{textDecoration: 'none'}}>
+            <p>Your Food</p>
+          </Link>
+
+          <Link to='./watchlist' style={{textDecoration: 'none'}}>
+            <p>Your Watchlist</p>
+          </Link>
+          
+          <Link to='./orders' style={{textDecoration: 'none'}}>
+            <p>Your Bookings</p>
+          </Link>
+
+          
+          
         </div>
 
         <div className="footer__right">

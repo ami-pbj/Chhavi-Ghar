@@ -31,7 +31,7 @@ const Subtotal = () => {
 
                     </small>
                     <p className='subtotal__food'>
-                        ▶︎ Order for Food and Beverage will be deliver on same booked theatre.
+                        ▶︎ Ordered Food and Beverage can be delivered or collected on same booked theatre.
                     </p>
                     
                 </>

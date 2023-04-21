@@ -7,12 +7,9 @@ const cors = require("cors");
 // Secret Key => Stripe.com > Developers > API Keys > Secret Key
 // INR
 // eslint-disable-next-line max-len
-const stripe = require("stripe")("sk_test_51MgN5uSB09l0DKpiEjaGA1cLANJkvxqWh8tvN1bfgtdtU0a5Oxd87I0dszz8WTxq2OiWMipS1madOoOVofThSyUB00oKVMZkP1");
-
-
-// USD
-// eslint-disable-next-line max-len
-// const stripe = require("stripe")("sk_test_51MgZzRLdUHnfIWNZnLd8dbZg4QITukzXqubPh5TpcRU7SQNxW4StlUNVjtFgM4gLA2qV8uRoNAZOyDXoa5VIyx0P0068yXMR3m");
+require("dotenv").config({path: "../.env"});
+console.log(process.env);
+const stripe = require("stripe")(process.env.REACT_APP_STRIPE_SECRET_KEY);
 
 
 // API
@@ -46,13 +43,3 @@ app.post("/payments/create", async (request, response) => {
 // - Listen Commands
 exports.api = functions.https.onRequest(app);
 
-// Example End Point
-// http://127.0.0.1:5001/chhavi-ghar/us-central1/api
-
-// // Create and deploy your first functions
-// // https://firebase.google.com/docs/functions/get-started
-//
-// exports.helloWorld = functions.https.onRequest((request, response) => {
-//   functions.logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });

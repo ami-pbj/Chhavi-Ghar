@@ -16,9 +16,6 @@ const Booking = () => {
         <div className="booking__left">
             <img
                 className="booking__ad"
-                // src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
-                // src="https://offercdn.paytm.com/blog/2017/12/HTML100u.jpg"
-                // src="https://www.flashsaletricks.com/wp-content/uploads/2017/02/BookMyShow_HalfPrice_offer_11Feb.jpg"
                 src={ offer }
                 alt=""
             />
@@ -32,7 +29,7 @@ const Booking = () => {
                     
                 </h4>
                 <h3 className='booking__title'>
-                    Your Shopping Basket
+                    Your Booking Basket
                 </h3>
 
                 {/* To show selected products on Booking page   */}
@@ -48,11 +45,6 @@ const Booking = () => {
                         rating={item.rating}
                     />
                 ))}
-                {/* Booking Product  */}
-                {/* Booking Product  */}
-                {/* Booking Product  */}
-                {/* Booking Product  */}
-                {/* Booking Product  */}
                 
             </div>
         </div>

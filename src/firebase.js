@@ -11,13 +11,13 @@ import "firebase/compat/storage";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB_Fnyo-hmJZ7LHdaxrRpRVLHMbGehzmP4",
-  authDomain: "chhavi-ghar.firebaseapp.com",
-  projectId: "chhavi-ghar",
-  storageBucket: "chhavi-ghar.appspot.com",
-  messagingSenderId: "705458966279",
-  appId: "1:705458966279:web:3106c7f519607bf2feffa2",
-  measurementId: "G-8MEJ9CWL7B"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 };
 
 

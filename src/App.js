@@ -20,16 +20,14 @@ import { Elements } from '@stripe/react-stripe-js';
 import Orders from './components/orders/Orders';
 import Footbar from './components/footer/Footbar';
 import BackToTop from './components/footer/BackToTop';
+import Watchlist from './components/watchlist/Watchlist';
 
-
+import "./lib/font-awesome/css/all.min.css";
+import { Watched } from './components/watchlist/Watched';
 
 // Payment => Stripe
 // INR
-const promise = loadStripe('pk_test_51MgN5uSB09l0DKpi6wP2RnqiCo3429m6zLHYE3doLWS4445FBnEbOYDlf03edJm2u386YDKxe9F4YJ70s1lHsUyQ00p4rPuhTP');
-
-// USD
-// const promise = loadStripe('pk_test_51MgZzRLdUHnfIWNZdanCsRHuHUiyQsztSmmr5OpH6FlRdnRucmD97E9yghP2R3ExIgQOAkJp60riU7wT4OxwSZoq00RvXsJqii');
-
+const promise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 
 
 function App() {
@@ -105,6 +103,8 @@ function App() {
   return (
   
     <div className="App">
+
+      
       <Header/>
       <Routes>
           <Route path="/" element={<Layout/>}>
@@ -133,6 +133,11 @@ function App() {
             {/* Orders Page */}
             <Route path='/orders' element={<Orders/>}/>
 
+            {/* Watchlist Page */}
+            <Route path='/watchlist' element={<Watchlist/>}/>
+
+            {/* Watched Movie Page */}
+            <Route path='/watched' element={<Watched/>}/>
 
 
           </Route>

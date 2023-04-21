@@ -1,8 +1,9 @@
 .order {
     padding: 40px;
     margin: 20px 0;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: linen;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    background-color:ivory;
     position: relative;
     color: #111;
 }

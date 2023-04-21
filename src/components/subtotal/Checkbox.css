@@ -11,9 +11,14 @@
     margin-bottom: 20px;
 }
 
+.checkbox__layout > input {
+    cursor: pointer;
+}
+
 .checkbox__lable {
     padding: 3px;
     margin-left: 3px;
+    cursor: pointer;
 }
 
 .checkbox__unchecked {

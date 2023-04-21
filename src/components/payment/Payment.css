@@ -72,3 +72,17 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+/* .controls button:hover {
+    background-color: #1aa762;
+    color: whitesmoke;
+    opacity: 1;
+    cursor: pointer;
+} */
+
+.payment__buy__button:disabled {
+    pointer-events: none;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: whitesmoke;
+    opacity: 0.5;
+}

@@ -50,46 +50,15 @@ const Checkbox = ({ label, checked, ...props }) => {
             {...props}
           />
           
-          <span className="checkbox__lable">Add Food and Beverage</span>
+          <span className="checkbox__lable">
+            {/* Add Food and Beverage */}
+            {!isChecked ? <span> Add Food and Beverage</span>  : <span> Tap Again to Hide Food List</span>}
+
+          </span>
         </label>
 
         <div className="foods">
           {isChecked ? 
-            // <ul className="foods__list">
-            //   {foods.map(({ name, image, price }, index) => {
-            //     return (
-            //       <li key={index}>
-            //         <div className="foods__list__item">
-            //           <div className="left__section">
-            //             <input
-            //               type="checkbox"
-            //               id={`custom-checkbox-${index}`}
-            //               name={name}
-            //               // img={img}
-            //               value={name}
-            //               checked={checkedState[index]}
-            //               onChange={() => handleOnChange(index)}
-            //             />
-            //             <label htmlFor={`custom-checkbox-${index}`}>
-            //               <img src={image} alt="photo"/>
-            //               {/* {image} */}
-            //               {name}
-            //             </label>
-            //           </div>
-            //           {/* <div className="middle__section">{(image)}</div> */}
-            //           <div className="right__section">{getFormattedPrice(price)}</div>
-            //         </div>
-            //       </li>
-            //     );
-            //   })}
-            //   <li>
-            //     <div className="foods__list__item">
-            //       <div className="left__section">Total:</div>
-            //       <div className="right__section">{getFormattedPrice(total)}</div>
-            //     </div>
-            //   </li>
-            // </ul>
-
             <div>
               <FoodData />
             </div>
