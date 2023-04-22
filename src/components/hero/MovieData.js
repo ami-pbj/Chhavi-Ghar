@@ -5,8 +5,8 @@ import Movielist from './Movielist';
 
 const MovieData = () => {
   return (
-    <div className="home">
-        <h3>Latest Movies</h3>
+    <div className="movie__data">
+        <h3>Now Playing</h3>
         <div className="home__row">
                 
             <Movielist
@@ -89,7 +89,7 @@ const MovieData = () => {
             />
         </div>
 
-        <div className="home__row">
+        {/* <div className="home__row">
             <Movielist
                 id="90829332"
                 title="Encanto at the Hollywood Bowl (2022)"
@@ -100,8 +100,9 @@ const MovieData = () => {
                 rating={4}
                 image="https://www.themoviedb.org/t/p/original/iR16XoukM0bCF2B4KP83a2xghYP.jpg"
             />
-        </div>
+        </div> */}
     </div>
+
   )
 }
 

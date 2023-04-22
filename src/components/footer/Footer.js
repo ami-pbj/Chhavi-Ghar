@@ -68,6 +68,8 @@ const Footer = () => {
           </Link>
 
           
+
+          
           
         </div>
 
@@ -75,6 +77,27 @@ const Footer = () => {
           <h6>Let Me Help You</h6>
           <p>Your Box Office Account</p>
           <p>100% Piracy Free Content</p>
+          
+          {/* <Link to='./movies/latest' style={{textDecoration: 'none'}}>
+            <p>Latest Movies</p>
+          </Link> */}
+
+          <Link to='./latest' style={{textDecoration: 'none'}}>
+            <p>Latest Movies</p>
+          </Link>
+
+          <Link to='./popular' style={{textDecoration: 'none'}}>
+            <p>Popular Movies</p>
+          </Link>
+
+          <Link to='./toprated' style={{textDecoration: 'none'}}>
+            <p>Top Rated Movies</p>
+          </Link>
+
+          <Link to='./upcoming' style={{textDecoration: 'none'}}>
+            <p>Upcoming Movies</p>
+          </Link>
+          
           <p>Help</p>
         </div>
 

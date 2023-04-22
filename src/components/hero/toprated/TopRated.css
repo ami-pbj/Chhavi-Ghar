@@ -1,0 +1,28 @@
+.toprated {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    justify-items: center;
+    background-color: rgb(0, 20, 85);
+    gap: 1rem;
+    padding: 20px;
+}
+
+.toprated__layout {
+    display: gird;
+    flex-direction: row;
+    flex: 1;
+    padding: 20px;
+    height: max-content;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.toprated__layout > h3 {
+    margin: 0px 30px 20px 30px;
+    font-weight: 500;
+    color: greenyellow;
+    width: auto;
+}

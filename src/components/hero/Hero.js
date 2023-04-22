@@ -6,6 +6,10 @@ import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import {Link, useNavigate} from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import MovieData from './MovieData';
+import Popular from './popular/Popular';
+import TopRated from './toprated/TopRated';
+import Upcoming from './upcoming/Upcoming';
+import Latest from './latest/Latest';
 
 
 const Hero = ({movies}) => {
@@ -64,8 +68,28 @@ const Hero = ({movies}) => {
 
 
         {/* Movie Details with Watchlist and Booking Button */}
-        <div className='home'>
+        <div className='movie__data'>
             <MovieData/>
+        </div>
+
+        {/* Latest Movie Section  */}
+        <div className="latest">
+            <Latest />
+        </div>
+
+        {/* Popular Movie Section  */}
+        <div className="popular">
+            <Popular />
+        </div>
+
+        {/* Top Rated Movie Section  */}
+        <div className="toprated">
+            <TopRated />
+        </div>
+
+        {/* Upcoming Movie Section  */}
+        <div className="upcoming">
+            <Upcoming />
         </div>
     </div>
 

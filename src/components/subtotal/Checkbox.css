@@ -1,3 +1,7 @@
+.foods {
+    max-height: 600px;
+    overflow-y: scroll;
+}
 
 .checkbox__wrapper{
     align-items: first baseline;

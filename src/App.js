@@ -24,6 +24,13 @@ import Watchlist from './components/watchlist/Watchlist';
 
 import "./lib/font-awesome/css/all.min.css";
 import { Watched } from './components/watchlist/Watched';
+import Popular from './components/hero/popular/Popular';
+import TopRated from './components/hero/toprated/TopRated';
+import Upcoming from './components/hero/upcoming/Upcoming';
+import Movie from './components/moviedetails/MovieDetails';
+import MovieList from './components/hero/popular/Popular';
+import Latest from './components/hero/latest/Latest';
+import { MovieDetailPage } from './components/moviedetails/MovieDetailPage';
 
 // Payment => Stripe
 // INR
@@ -133,11 +140,36 @@ function App() {
             {/* Orders Page */}
             <Route path='/orders' element={<Orders/>}/>
 
+
+            {/* Search Bar Work */}
+
             {/* Watchlist Page */}
             <Route path='/watchlist' element={<Watchlist/>}/>
 
             {/* Watched Movie Page */}
             <Route path='/watched' element={<Watched/>}/>
+
+
+            {/* Popular, Top Rated, Upcoming movie API calling */}
+
+            {/* <Route path='/moviedetails/movie/:id' element={ <Movie/> }/> */}
+
+            {/* <Route path='movies/:type' element={ <MovieList/> }/> */}
+
+            {/* Latest movies section */}
+            <Route path='/latest' element={ <Latest/> }/>
+
+            {/* Popular movies section */}
+            <Route path='/popular' element={ <Popular/> }/>
+
+            {/* Popular movies section */}
+            <Route path='/toprated' element={ <TopRated/> }/>
+
+            {/* Popular movies section */}
+            <Route path='/upcoming' element={ <Upcoming/> }/>
+
+            {/* Movie details section */}
+            <Route path='/moviedetails/movie/:id' element={ <MovieDetailPage/> }/>
 
 
           </Route>
