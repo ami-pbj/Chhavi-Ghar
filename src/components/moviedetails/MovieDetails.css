@@ -91,7 +91,7 @@
 
 .movie__links {
     position: relative;
-    bottom: 120px;
+    bottom: 50px;
     display: flex;
     justify-content: space-between;
     width: 75%;
@@ -132,6 +132,7 @@
     justify-content: center;
     align-items: flex-end;
     margin-bottom: 4rem;
+    height: max-content;
 }
 
 

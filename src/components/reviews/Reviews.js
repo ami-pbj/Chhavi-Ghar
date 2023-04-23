@@ -1,10 +1,12 @@
+import React from 'react';
+import './Reviews.css';
 import {useEffect, useRef} from 'react';
 import api from '../../api/axiosConfig';
 import {useParams} from 'react-router-dom';
 import {Container, Row, Col} from 'react-bootstrap';
 import ReviewForm from '../reviewForm/ReviewForm';
 
-import React from 'react'
+
 
 const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
 
@@ -38,20 +40,24 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
     }
 
   return (
+    <div className="reviews">
+      {/* <div className="reviews__header"> */}
     <Container>
-        <Row style={{marginTop: 20, marginBottom: 40}}>
-            <Col><h3>Reviews</h3></Col>
-            <Row style={{ color: '#7ec3f7' }}><h6>Rate and Review movie only for entertainment purposes !!</h6></Row>
-        </Row>
-        <Row className="mt-2">
-            <Col>
+        <div style={{marginTop: 20, marginBottom: 40}} className='reviews__header'>
+            <h2 >Rate & Reviews</h2>
+            <span style={{ color: '#7ec3f7'}}>
+                <h6>Rate and Review movie only for entertainment purposes !!</h6>
+            </span>
+        </div>
+        <Row className="reviews__movie__layout">
+            <Col className='reviews__movie__layout__poster'>
                 <img src={movie?.poster} alt="" />
             </Col>
             <Col>
                 {
                     <>
                         <Row>
-                            <Col>
+                            <Col style={{marginTop: -6}}>
                                 <ReviewForm handleSubmit={addReview} revText={revText} labelText = "Write a Review?" />  
                             </Col>
                         </Row>
@@ -80,12 +86,11 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
                 }
             </Col>
         </Row>
-        <Row>
-            <Col>
-                <hr />
-            </Col>
-        </Row>        
+             
     </Container>
+
+    {/* </div> */}
+    </div>
   )
 }
 

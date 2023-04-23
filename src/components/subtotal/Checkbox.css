@@ -1,6 +1,8 @@
 .foods {
     max-height: 600px;
     overflow-y: scroll;
+    border: 1px solid #111;
+    border-radius: 4px;
 }
 
 .checkbox__wrapper{

@@ -14,7 +14,7 @@ const Latest = () => {
 
   const getData = () => {
       // https://api.themoviedb.org/3/movie/latest?api_key=<<api_key>>&language=en-US
-      fetch(`https://api.themoviedb.org/3/movie/now_playing?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US`)
+      fetch(`https://api.themoviedb.org/3/movie/now_playing?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1&include_adult=false`)
       .then(res => res.json())
       .then(data => setMovieList(data.results))
   }
