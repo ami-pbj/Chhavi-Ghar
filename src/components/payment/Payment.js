@@ -132,21 +132,35 @@ const Payment = () => {
                 <div className="payment__title">
                     <h4>Review Tickets</h4>
                 </div>
+
+
                 <div className="payment__items">
-                    {/* all the selected products */}
-                    {basket.map(item => (
-                    <BookingProduct
-                        id={item.id}
-                        title={item.title}
-                        image={item.image}
-                        info={item.info}
-                        price={item.price}
-                        stock={item.stock}
-                        nostock={item.nostock}
-                        rating={item.rating}
-                    />
-                ))}
+
+                    {basket.length > 0 ? (
+
+                        <>
+                            {/* all the selected products */}
+                            {basket.map(item => (
+                                <BookingProduct
+                                    id={item.id}
+                                    title={item.title}
+                                    image={item.image}
+                                    info={item.info}
+                                    price={item.price}
+                                    stock={item.stock}
+                                    nostock={item.nostock}
+                                    rating={item.rating}
+                                />
+                            ))}
+
+                        </>
+
+                    ) : (
+                        <h3 className="no__payment__items">No tickets or items in your basket to review !!<br />Add some now !!</h3>
+                    )}
+
                 </div>
+
             </div>
 
             {/* Payment Section => Payment Method */}

@@ -32,19 +32,27 @@ const Booking = () => {
                     Your Booking Basket
                 </h3>
 
-                {/* To show selected products on Booking page   */}
-                {basket.map(item => (
-                    <BookingProduct
-                        id={item.id}
-                        title={item.title}
-                        image={item.image}
-                        info={item.info}
-                        price={item.price}
-                        stock={item.stock}
-                        nostock={item.nostock}
-                        rating={item.rating}
-                    />
-                ))}
+                {basket.length > 0 ? (
+
+                    <>
+                        {/* To show selected products on Booking page   */}
+                        {basket.map(item => (
+                            <BookingProduct
+                                id={item.id}
+                                title={item.title}
+                                image={item.image}
+                                info={item.info}
+                                price={item.price}
+                                stock={item.stock}
+                                nostock={item.nostock}
+                                rating={item.rating}
+                            />
+                        ))}
+                    </>
+
+                ) : (
+                    <h3 className="no__basket__items">No tickets or items in your basket !!<br />Add some now !!</h3>
+                  )}
                 
             </div>
         </div>
