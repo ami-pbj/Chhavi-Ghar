@@ -1,7 +1,6 @@
 # Chhavi Ghar
 A full stack movie booking web application built on Java, Spring Boot and Firebase with MERN for rate and review movie and purchase movie ticket.
 
-
 ### Home : 
 
 <img width="1440" alt="Screenshot 2023-04-12 at 16 36 37" src="https://user-images.githubusercontent.com/95628601/231439727-d3a08a1d-6053-4ea4-ad02-fa08b833721b.png">
