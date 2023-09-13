@@ -1,5 +1,5 @@
 # Chhavi Ghar
-## A Full Stack Web Application built on Java Spring Boot and Firebase with MERN.
+A full stack movie booking web application built on Java, Spring Boot and Firebase with MERN for rate and review movie and purchase movie ticket.
 
 
 ### Home : 
